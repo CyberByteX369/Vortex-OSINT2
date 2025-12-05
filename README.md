@@ -49,7 +49,7 @@ git clone https://github.com/CyberByteX369/Vortex-OSINT2.git
 
 # 2. Enter the directory
 ```bash
-cd Vortex-OSINT
+cd Vortex-OSINT2
 ```
 
 # 3. Install dependencies
@@ -75,7 +75,7 @@ Check the root directory for the generated report_[target].txt.
 # 📂 Project Structure
 Plaintext
 ``` plainext
-Vortex-OSINT/
+Vortex-OSINT2/
 ├── src/
 │   ├── vortex.py          # Core Logic & Scanner
 │   └── modules/           # (Future) Pluggable modules
