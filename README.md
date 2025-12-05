@@ -1,5 +1,9 @@
 # 🌪️ Vortex-OSINT
 
+⚠️ Disclaimer
+FOR EDUCATIONAL PURPOSES ONLY. This tool is intended to help security professionals understand their own digital footprint or for authorized red-teaming. The author is not responsible for any misuse of this tool. Do not use this to harass or target individuals without consent.
+
+
 **Advanced Passive Intelligence Gathering Tool**
 
 Vortex-OSINT is a Python-based reconnaissance tool designed for ethical hackers and security researchers. It automates the process of gathering public intelligence (OSINT) from social media and deep web sources without alerting the target.
