@@ -44,7 +44,7 @@ Bash
 
 # 1. Clone the repository
 ```bsh
-git clone [https://github.com/YOUR_USERNAME/Vortex-OSINT.git](https://github.com/YOUR_USERNAME/Vortex-OSINT.git)
+git clone https://github.com/CyberByteX369/Vortex-OSINT.git
 ```
 
 # 2. Enter the directory
