@@ -1,0 +1,6 @@
+requests
+instaloader
+pysocks
+stem
+colorama
+beautifulsoup4
