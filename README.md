@@ -1,40 +1,117 @@
-# 🌪️ Vortex-OSINT
+# 🌪️ VORTEX-OSINT
+### Advanced Passive Intelligence & Digital Footprinting Framework
 
-⚠️ Disclaimer
-FOR EDUCATIONAL PURPOSES ONLY. This tool is intended to help security professionals understand their own digital footprint or for authorized red-teaming. The author is not responsible for any misuse of this tool. Do not use this to harass or target individuals without consent.
+![Python](https://img.shields.io/badge/Python-3.8%2B-blue?style=for-the-badge&logo=python)
+![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Active-red?style=for-the-badge)
+![Platform](https://img.shields.io/badge/Platform-Linux%20%7C%20Windows%20%7C%20MacOS-lightgrey?style=for-the-badge)
 
+```text
+██╗   ██╗ ██████╗ ██████╗ ████████╗███████╗██╗  ██╗
+██║   ██║██╔═══██╗██╔══██╗╚══██╔══╝██╔════╝╚██╗██╔╝
+██║   ██║██║   ██║██████╔╝   ██║   █████╗   ╚███╔╝ 
+╚██╗ ██╔╝██║   ██║██╔══██╗   ██║   ██╔══╝   ██╔██╗ 
+ ╚████╔╝ ╚██████╔╝██║  ██║   ██║   ███████╗██╔╝ ██╗
+  ╚═══╝   ╚═════╝ ╚═╝  ╚═╝   ╚═╝   ╚══════╝╚═╝  ╚═╝
+                                       v1.0.0
+```
+📖 Overview
+Vortex-OSINT is a specialized reconnaissance tool designed for Red Teamers, Security Analysts, and Ethical Hackers. Unlike noisy active scanners that alert targets, Vortex focuses on Passive Open Source Intelligence (OSINT).
 
-**Advanced Passive Intelligence Gathering Tool**
+It correlates data from social media, deep web breach databases, and public metadata to generate a comprehensive "Digital Identity" report without ever sending a direct packet to the target's personal device.
 
-Vortex-OSINT is a Python-based reconnaissance tool designed for ethical hackers and security researchers. It automates the process of gathering public intelligence (OSINT) from social media and deep web sources without alerting the target.
+⚡ Features
+🕵️‍♂️ Passive Reconnaissance: Gathers data without interacting with the target (No likes, follows, or DMs).
 
-## 🚀 Features
+🧅 Tor Circuit Routing: Optional module to route requests through the Tor Network (Port 9050) for anonymity.
 
-* **Tor Circuit Routing:** Options to route traffic through the Tor network to mask the investigator's IP address.
-* **Metadata Extraction:** Retrieves permanent User IDs, verified status, and business category info.
-* **Breach Detection:** Scans for username association in known data leaks (Simulated/API Ready).
-* **Report Generation:** Automatically saves all intelligence to a local text file.
-* **Passive Recon:** Designed to gather data without direct interaction (no pings/DMs).
+📊 Metadata Extraction: Retrieves permanent User IDs, active hours analysis, and account creation dates.
 
-## 📦 Installation
+🔓 Breach Correlation: Cross-references usernames with known data leaks (simulated/API-ready).
 
-1.  Clone the repository:
-    ```bash
-    git clone [https://github.com/YOUR_USERNAME/Vortex-OSINT.git](https://github.com/YOUR_USERNAME/Vortex-OSINT.git)
-    cd Vortex-OSINT
-    ```
+📝 Auto-Reporting: Generates clean, timestamped .txt dossiers for evidence collection.
 
-2.  Install dependencies:
-    ```bash
-    pip install -r requirements.txt
-    ```
+🚫 Anti-Phishing: Zero social engineering vectors. Pure data aggregation.
 
-3.  (Optional) Start Tor Service:
-    * Ensure Tor Browser or the Tor service is running on port 9050.
+🛠️ Installation
+Prerequisites
+Python 3.8+
 
-## 🛠️ Usage
+Tor Browser / Tor Service (Optional, for Dark Web module)
 
-Run the main script:
+Setup
+Bash
 
+# 1. Clone the repository
+```bsh
+git clone [https://github.com/YOUR_USERNAME/Vortex-OSINT.git](https://github.com/YOUR_USERNAME/Vortex-OSINT.git)
+```
+
+# 2. Enter the directory
+```bash
+cd Vortex-OSINT
+```
+
+# 3. Install dependencies
+``` bash
+pip install -r requirements.txt
+```
+
+# 🚀 Usage
+Run the main framework:
+
+Bash
 ```bash
 python src/vortex.py
+```
+The tool will check for a Tor connection.
+
+Enter the target Username when prompted.
+
+Wait for the Multi-Threaded Scan to complete.
+
+Check the root directory for the generated report_[target].txt.
+
+# 📂 Project Structure
+Plaintext
+``` plainext
+Vortex-OSINT/
+├── src/
+│   ├── vortex.py          # Core Logic & Scanner
+│   └── modules/           # (Future) Pluggable modules
+├── evidence/              # Downloaded Avatars/Logs
+├── requirements.txt       # Dependencies
+├── LICENSE                # MIT License
+└── README.md              # Documentation
+```
+# 🗺️ Roadmap
+[x] Instagram Metadata Extraction
+
+[x] Tor Proxy Support
+
+[ ] Twitter/X API Integration
+
+[ ] Reverse Image Search Automation (PimEyes/TinEye)
+
+[ ] PDF Report Generation
+
+# ⚠️ LEGAL DISCLAIMER
+PLEASE READ BEFORE USING
+
+Vortex-OSINT is developed for EDUCATIONAL and RESEARCH purposes only.
+
+Authorization: This tool is intended to be used by security professionals to audit their own footprints or by authorized Red Teams with explicit permission from the target.
+
+Liability: The developer (Your Name) accepts no responsibility for any misuse of this software. The end-user is solely responsible for compliance with all local, state, and federal laws.
+
+Prohibited Use:
+
+Do not use this tool for cyberbullying, stalking, or harassment.
+
+Do not use this tool to access accounts you do not own.
+
+GDPR/Privacy: Respect the privacy of individuals. Collecting PII (Personally Identifiable Information) without consent may be illegal in your jurisdiction (e.g., GDPR in Europe, CCPA in California).
+
+By cloning or downloading this repository, you agree to these terms.
+
+<p align="center"> <sub>Built with 💀 and 🐍 by <a href="https://www.google.com/search?q=https://github.com/YOUR_USERNAME">CyberByteX</a></sub> </p>
